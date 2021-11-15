@@ -1,0 +1,14 @@
+.header {
+    width: 1920px;
+    height: 112px;
+background-color: #66D1FF;}
+
+
+
+
+.footer {
+    width: 1920px;
+    height: 111px;
+    background-color: black;
+}
+.footer-text { color: white;}
