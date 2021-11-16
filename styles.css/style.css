@@ -1,14 +1,150 @@
-.header {
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/montserrat-v18-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v18-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* oswald-500 - latin_cyrillic */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/oswald-v40-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/oswald-v40-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* header */
+.header 
+{
+    background-color: #66D1FF;
     width: 1920px;
     height: 112px;
-background-color: #66D1FF;}
-
-
-
-
-.footer {
-    width: 1920px;
-    height: 111px;
-    background-color: black;
+    
 }
-.footer-text { color: white;}
+
+.btn-header {
+    color: #060D10;
+    font-family: "montserrat", "sans-serif";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    transition: 0.4s;
+    text-align: center;
+   
+}
+.btn-header:hover 
+{
+    font-size: 26px;
+}
+
+.contacts 
+{
+    color: #060D10;
+    font-family: "montserrat", "sans-serif";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    height: 45px;
+}
+
+
+/* main */
+
+/* section-about */
+.about-text-big 
+{
+font-family: "Oswald", sans-serif;
+font-weight: 500;
+font-size: 60px;
+line-height: 89px;
+text-align: center;
+text-transform: uppercase;
+}
+.about-text-small 
+{
+font-family: "Montserrat", "sans-serif";
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+}
+
+/* section-advantages */
+.advantages-heading-big {
+color: #060D10;
+font-family: "Oswald", "sans-serif";
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+text-align: center;
+text-transform: uppercase;
+}
+.advantages-heading {
+color: #060D10;
+font-family: "Oswald", "sans-serif";
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.advantages-text {
+    color: #060D10;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    opacity: 0.8;
+}
+/* div-atvanteges */
+.foto-text {
+    font-family: "Oswald";
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 140%;
+text-transform: uppercase;
+text-align: center;
+}
+.btn {
+color: #060D10;
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-decoration: none;
+text-align: center;
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color: #060D10;
+    width: 1920px;
+height: 111px;
+}
+.footer-add {
+    color: #fff;
+    font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+.footer-text {
+    color: #fff;
+    font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+}
+
