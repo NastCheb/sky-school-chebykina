@@ -22,9 +22,19 @@
 .header 
 {
     background-color: #66D1FF;
-    width: 1920px;
+    width: 1440px;
     height: 112px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     
+}
+.logo {
+Top: 31px;
+Left: 584px;
+position: absolute;
 }
 
 .btn-header {
@@ -32,11 +42,12 @@
     font-family: "montserrat", "sans-serif";
     font-weight: 500;
     font-size: 24px;
-    line-height: 29px;
     text-decoration: none;
     transition: 0.4s;
-    text-align: center;
-   
+    line-height: 29px;
+    top: 42px;
+    left: 122px;   
+    position: absolute;
 }
 .btn-header:hover 
 {
@@ -50,8 +61,10 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 34px;
-    text-align: center;
-    height: 45px;
+    margin: 0px;
+    top: 39px;
+    left: 1103px;
+    position: absolute;
 }
 
 
@@ -102,6 +115,7 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 26px;
     opacity: 0.8;
+    line-height: 140%;
 }
 /* div-atvanteges */
 .foto-text {
@@ -130,21 +144,34 @@ text-align: center;
 /* footer */
 .footer {
     background-color: #060D10;
-    width: 1920px;
+    width: 1440px;
 height: 111px;
+position: relative;
 }
 .footer-add {
-    color: #fff;
-    font-family: "Montserrat";
+color: #fff;
+font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
+line-height: 167%;
+top: 38px;
+left: 98px;
+margin: 0px;
+position: absolute;
 }
-.footer-text {
+.year {
     color: #fff;
     font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
+line-height: 22px;
+margin: 0px;
+top: 43px;
+left: 1162px;
+position: absolute;
+
+
 }
 
