@@ -19,23 +19,16 @@
   }
 
 /* header */
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
 .header 
 {
-    background-color: #66D1FF;
-    width: 1440px;
-    height: 112px;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    
+    background-color: #66D1FF;  
 }
-.logo {
-Top: 31px;
-Left: 584px;
-position: absolute;
-}
+
 
 .btn-header {
     color: #060D10;
@@ -47,7 +40,7 @@ position: absolute;
     line-height: 29px;
     top: 42px;
     left: 122px;   
-    position: absolute;
+    
 }
 .btn-header:hover 
 {
@@ -64,30 +57,39 @@ position: absolute;
     margin: 0px;
     top: 39px;
     left: 1103px;
-    position: absolute;
+    
 }
 
 
 /* main */
 
 /* section-about */
+.about {
+    background-image: url(../img/promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-fade {
+    padding: 240px 81px;
+    background-color: rgb(6, 13, 16, 0.25);
+}
 .about-text-big 
 {
 font-family: "Oswald", sans-serif;
 font-weight: 500;
 font-size: 60px;
 line-height: 89px;
-text-align: center;
-text-transform: uppercase;
 }
+
 .about-text-small 
 {
 font-family: "Montserrat", "sans-serif";
 font-weight: 500;
 font-size: 32px;
 line-height: 39px;
-text-align: center;
 }
+
 
 /* section-advantages */
 .advantages-heading-big {
@@ -96,7 +98,7 @@ font-family: "Oswald", "sans-serif";
 font-style: normal;
 font-weight: 500;
 font-size: 48px;
-text-align: center;
+
 text-transform: uppercase;
 }
 .advantages-heading {
@@ -144,9 +146,9 @@ text-align: center;
 /* footer */
 .footer {
     background-color: #060D10;
-    width: 1440px;
-height: 111px;
-position: relative;
+    
+
+
 }
 .footer-add {
 color: #fff;
@@ -155,23 +157,16 @@ font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 167%;
-top: 38px;
-left: 98px;
-margin: 0px;
-position: absolute;
+
+
+
 }
 .year {
-    color: #fff;
-    font-family: "Montserrat";
+color: #fff;
+font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 22px;
-margin: 0px;
-top: 43px;
-left: 1162px;
-position: absolute;
-
-
 }
 
