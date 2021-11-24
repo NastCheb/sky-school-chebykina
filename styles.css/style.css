@@ -28,6 +28,10 @@
     border: 1px solid red;
   }
 
+img {
+    display: block;
+}
+
 /* header */
 .header-wrap {
     display: inline-flex;
@@ -67,7 +71,7 @@
 
 
 
-.contacts 
+.contact
 {
     color: #060D10;
     font-family: "montserrat", "sans-serif";
@@ -75,31 +79,34 @@
     font-size: 28px;
     line-height: 34px;
     margin: 0px;
-
-    
+    text-decoration: none;  
 }
 
 
 /* main */
 
 /* section-about */
+
 .about {
     background-image: url(../img/promo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .about-fade {
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 240px 81px;
+    padding: 240px 0 260px 0;
     background-color: rgb(6, 13, 16, 0.25);
     color: white;
     text-shadow: 1px 1px 2px #060D10 ;
 }
+
 .about-text-big 
 {
+margin: 0;
 font-family: "Oswald", sans-serif;
 font-weight: 500;
 font-size: 60px;
@@ -109,7 +116,7 @@ text-transform: uppercase;
 
 .about-text-small 
 {
-
+margin-top: 60px;
 font-family: "Montserrat", "sans-serif";
 font-weight: 500;
 font-size: 32px;
@@ -139,22 +146,22 @@ font-family: "Oswald", "sans-serif";
 font-style: normal;
 font-weight: 500;
 font-size: 48px;
+text-transform: uppercase;
 }
 
 
 .advantages-list {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0;
     padding-top: 100px;
     padding-left: 0;
+    list-style: none;
 }
 
-.advantages-item {
-    display: inline-flex;
-    flex-wrap: wrap;
-    width: 406px;
+.advantages-item { 
+flex-basis: 33.3%;
 }
 
 
@@ -165,10 +172,9 @@ font-style: normal;
 font-weight: 500;
 font-size: 32px;
 line-height: 167%;
-height: 53px;
 text-decoration: none;
 text-transform: uppercase;
-margin: 0;
+
 }
 
 .advantages-text {
@@ -178,42 +184,82 @@ margin: 0;
     font-weight: normal;
     font-size: 26px;
     opacity: 0.8;
-    line-height: 140%;
-    margin: 25px 0 0 0;
+    line-height: 140%;   
 }
 
 
-/* div-foto */
-.foto-text {
+/* div-photo */
+
+.photo {
+background: linear-gradient(208.35deg, rgba(102, 209, 255, 0.1) 43.85%, #fff 43.86%);
+text-align: center;
+}
+
+.photo-box {
+padding-top: 170px;
+padding-bottom: 180px;
+}
+
+.photo-text {
+    margin: 0;
     font-family: "Oswald";
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 140%;
-text-transform: uppercase;
-text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 140%;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+
+
+.btn-photo {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 130px;
+    padding: 20px 107px;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #060D10;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-decoration: none;
+    }
+
+.photo-list {
+display: flex;   
+justify-content: space-between;
+padding: 0;
+margin: 0; 
+list-style: none;
 }
-.btn {
-color: #060D10;
-font-family: "Montserrat";
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 44px;
-text-decoration: none;
-text-align: center;
+
+.photo-img {
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+
+
 
 
 
 
 /* footer */
 .footer {
+    display: flex;
     background-color: #060D10;
+    
+      
 }
 
 
 .footer-add {
+display: inline-flex;
 color: #fff;
 font-family: "Montserrat";
 font-style: normal;
@@ -225,11 +271,17 @@ line-height: 167%;
 
 
 .year {
+justify-content: end;
+display: inline-flex;
 color: #fff;
 font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 22px;
+}
+
+.footer-social {
+display: inline-flex;
 }
 
